@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 cask "devkit" do
-  version "0.1.0"
-  sha256 :no_check
+  version "0.2.0"
+  sha256 "435202092f854756a688e1e33fd22ac502fdc080e08d7b9847bf99abd0a375fc"
 
   url "https://github.com/djadmin/devkit/releases/download/v#{version}/DevkitBar.zip"
   name "DevkitBar"
