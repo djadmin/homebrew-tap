@@ -5,12 +5,12 @@
 class Fort < Formula
   desc "One command. Every Mac. SOC 2 ready."
   homepage "https://github.com/djadmin/fort"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
   depends_on :macos
 
-  url "https://github.com/djadmin/fort/releases/download/v0.3.0/fort_darwin_all.tar.gz"
-  sha256 "7d37a2443e02bbdd649519292e12c9705163239a940f8b88d16d2a93420728f2"
+  url "https://github.com/djadmin/fort/releases/download/v0.3.1/fort_darwin_all.tar.gz"
+  sha256 "b0abd1276182b2e555d759ae9f0d2a84691e6345fce9b156b8dcd8c0ba3e3ede"
 
   define_method(:install) do
     bin.install "fort"
